@@ -32,6 +32,6 @@ function clickbehav() {
     showRows(selectdata);
   }
   
-d3.select("#filter-btn").on("click", clickbehav);
+d3.selectAll("#filter-btn").on("click", clickbehav);
 
 showRows(tableData);
